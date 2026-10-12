@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(226, 176, 114);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+nav{
+    background-color: rgb(222, 246, 238);
+    padding: 15px;
+    font-size: x-large;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.anagovde{
+    background-color: rgb(30, 210, 153);
+    margin: auto;
+    width: 60%;
+}
+
+@media(max-width:600px){
+    nav,
+    article{
+        width: 100%;
+        height: auto
+    }
+}
+
+h1{
+    color: rgb(159, 159, 218);
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+p{
+    font-size: larger;
+    padding: 12px;
+}
+
+.anagovde2{
+    background-color: rgb(145, 175, 176);
+    width: 40%;
+}
+
+.container{
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    color: rgb(22, 22, 82);
+}
+
+footer{
+    background-color: rgb(173, 118, 118);
+}
+
+@media(max-width:1240px){
+    .anagovde{
+        font-size: 18;
+    }
+}
+
+@media(max-width:800px){
+    .anagovde{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:400px){
+    .anagovde{
+        font-size: 12px;
+    }
+}
